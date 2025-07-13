@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather INFO</title>
+    <style>
+        body {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        @keyframes up-down {
+            0% {
+                transform: translateY(-20px);
+            }
+            50% {
+                transform: translateY(20px);
+            }
+            100% {
+                transform: translateY(-20px);
+            }
+        }
+
+        h2 {
+            font-size: 5rem;
+            font-weight: 900;
+            font-family: sans-serif;
+            color: brown;
+            animation: up-down infinite linear 2s;
+        }
+    </style>
+</head>
+<body>
+    <h2>Weather INFO Fetcher</h2>
+</body>
+</html>
