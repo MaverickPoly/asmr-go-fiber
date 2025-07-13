@@ -3,6 +3,19 @@
 15+ Beginner-Intermediate Projects to learn Go Fiber
 
 
+## 🔧 Technology Used
+
+* Fiber
+* Sqlx
+* Gorm
+* Godotenv
+* Postgres
+* Sqlite
+* MongoDB
+* JWT
+* Resty
+
+
 ## 🚀 Projects
 
 1. **Todo List API**
