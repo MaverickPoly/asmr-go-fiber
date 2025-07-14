@@ -70,6 +70,7 @@
 
 11. **Recipe API**
 
+
     * Manage cooking recipes with ingredients and steps.
     * Filter by ingredient or cuisine type.
 
@@ -87,8 +88,3 @@
 
     * Like your original request — list files/folders from DB or file system.
     * Include nested folder support with `parent_id`.
-
-15. **Simple Polling/Voting System**
-
-    * Create polls with options.
-    * Let users vote and see results.
