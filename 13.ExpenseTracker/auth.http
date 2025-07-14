@@ -1,0 +1,65 @@
+## Auth
+
+
+### Login
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "test1",
+  "password": "1234"
+}
+
+
+### Register
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "test1",
+  "email": "test1@gmail.com",
+  "password": "1234"
+}
+
+
+### Logout
+POST http://localhost:3000/api/auth/logout
+
+
+### Me
+GET http://localhost:3000/api/auth/me
+
+
+
+###
+
+## Expenses
+
+
+### All Expenses
+GET http://localhost:3000/api/expenses
+
+
+### Create Expense
+POST http://localhost:3000/api/expenses
+Content-Type: application/json
+
+{
+  "title": "Delete",
+  "amount": 10000
+}
+
+### Delete Expense
+DELETE http://localhost:3000/api/expenses/3
+
+### Update Expense
+PUT http://localhost:3000/api/expenses/1
+Content-Type: application/json
+
+{
+  "title": "New Car",
+  "amount": 14000,
+  "type": "expenditure"
+}
+
+
